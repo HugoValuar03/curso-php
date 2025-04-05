@@ -6,3 +6,13 @@
 - A criação de funções reduz a duplicidade de código;
 - Melhora a manutenção do mesmo;
 - O PHP pussi diversas funções prontas;
+
+## Separar dados de array por vírgula
+
+- Para separar os dados, usa-se o método `implode()`
+```php
+$frutas = ["maçã", "banana", "laranja"];
+$lista = implode(", ", $frutas);
+
+echo $lista; // Saída: maçã, banana, laranja
+```
