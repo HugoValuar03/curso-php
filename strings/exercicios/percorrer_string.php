@@ -13,3 +13,4 @@
     }
 
     echo $count;
+    echo $count;
