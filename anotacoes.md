@@ -16,3 +16,6 @@ $lista = implode(", ", $frutas);
 
 echo $lista; // Saída: maçã, banana, laranja
 ```
+
+## Introdução ao HTTP
+- A web 
