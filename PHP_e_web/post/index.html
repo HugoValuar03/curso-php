@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="cadastro.php" method="POST">
+        <div>
+            <label>
+                <input type="text" name="marca" placeholder="Marca do Carro">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="text" name="preco" placeholder="Preço do Carro">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="opcionais[]" value="Teto solar"> Teto solar
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="opcionais[]" value="Película"> Película
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="opcionais[]" value="Blindado"> Blindado
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="submit" value="Cadastrar">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
